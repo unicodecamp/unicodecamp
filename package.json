@@ -1,31 +1,31 @@
 {
-  "name": "inout",
+  "name": "unicodecamp",
   "version": "1.0.0",
-  "description": "landing page for inout fourth edition",
+  "description": "official unicodecamp website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackinout/InOut4-landing.git"
+    "url": "git+https://github.com/unicodecamp/unicodecamp.git"
   },
   "keywords": [
     "hackathon",
     "inout"
   ],
-  "author": "Akash Nimare <svnitakash@gmail.com> (http://akashnimare.in)",
+  "author": "Oyetoke Toby <oyetoketoby80@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hackinout/InOut4-landing/issues"
+    "url": "https://github.com/unicodecamp/unicodecamp/issues"
   },
-  "homepage": "https://github.com/hackinout/InOut4-landing#readme",
+  "homepage": "https://github.com/unicodecamp/unicodecamp#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uncss": "^1.0.6"
   },
   "dependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.23.7",
     "del": "^2.2.2",
     "gulp-clean-css": "^3.0.4",
     "gulp-concat": "^2.6.1",
@@ -35,6 +35,6 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.1.2",
-    "pump": "^1.0.2"
+    "pump": "^1.0.3"
   }
 }

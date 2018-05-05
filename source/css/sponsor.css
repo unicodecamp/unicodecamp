@@ -150,7 +150,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a62', end
 .subtitle, .section-paragraph {
     font-family: 'Lato',sans-serif;
     font-weight: 300;
-    color: #c0d1ff;
+    color: white;
     line-height: 1.575em;
     font-size: 1.375em;
 }

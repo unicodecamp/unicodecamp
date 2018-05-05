@@ -10,24 +10,24 @@ iframe {
 
 header {
     height: 100vh;
-    background-color: #5252DB;
+    background-color: rgba(139, 209, 196, 0.8);
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
     -o-background-size: cover;
-    background-position: calc(100% + 326px) calc(100%);
-    background-image: url(../assets/img/header.png);
+    background-position: calc(100% + 360px) calc(75%);
+    background-image: url(../assets/img/schedule.svg);
     min-height: 720px;
 }
 
 .header-logo {
-    margin-top: 110px;
-    margin-bottom: 140px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     margin-left: calc(-1vmin);
     width: auto;
-    height: auto;
+    height: 60px;
 }
 
 .location {
@@ -61,7 +61,7 @@ header {
 
 .mc-button {
     background-color: rgb(255, 255, 255) !important;
-    color: #5252DB !important;
+    color: #f15d5f !important;
     font-size: 1.35em;
     font-weight: 600;
     line-height: 25px;
@@ -81,7 +81,7 @@ input[type="email"] {
     display: inline-block;
     width: 75%;
     box-sizing: border-box;
-    background: #5252db;
+    background: #263473;
     font-family: 'Lato';
     font-weight: 300;
     color: #C0D1FF;
@@ -89,8 +89,8 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-    margin-left: -108px;
-    font-family: 'Rajdhani';
+    margin-left: -80px;
+    font-family: 'Rajdhani', sans-serif;
     height: 44px;
     display: inline-block;
     vertical-align: middle;
@@ -151,7 +151,7 @@ section {
 }
 
 .text-color {
-    color: #00FFC2;
+    color: #f15d5f;
     font-weight: 700;
     font-family: 'Rajdhani'
 }
@@ -172,7 +172,7 @@ section {
 /* About styling */
 
 .about-container {
-    background: #3A3A62;
+    background: #263473;
     padding: 60px 20px;
 }
 
@@ -182,7 +182,7 @@ section {
     font-family: 'Rajdhani';
     line-height: 1.2em;
     text-transform: uppercase;
-    color: #00FFC2;
+    color: #f15d5f;
 }
 
 .section-paragraph {
@@ -209,10 +209,16 @@ section {
 
 .video-container {
     padding: 0;
-    background-image: url('../assets/img/yt-video.jpg');
+    background-image: url('../assets/img/code-camp-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+}
+
+.overlay-video {
+    height: 100%;
+    width: 100%;
+    background: rgba(38, 52, 115, 0.4);
 }
 
 .play-button {
@@ -267,6 +273,9 @@ footer {
     cursor: pointer;
 }
 
+.footer-logo {
+    height: 30px;
+}
 .social-buttons {
     margin-left: 180px;
 }
