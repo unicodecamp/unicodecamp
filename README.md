@@ -1,5 +1,5 @@
-# InOut: India's leading Hackathon
-Landing page of InOut 4 [WIP]
+# UniCodeCamp
+Landing page of UniCodeCamp
 
 
 ## How to run:
